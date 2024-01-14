@@ -11,7 +11,8 @@ Docker Steps
 4. ![4.png](images/4.png)
 5. ![5.png](images/5.png)
 6. ![6.png](images/6.png)
-7. ![7.png](images/7.png)
+7. ![11.png](images/11.png)
+8.  ![7.png](images/7.png)
 
 Static Site Generation
 ------------------------
@@ -19,8 +20,6 @@ Static Site Generation
 8. ![8.png](images/8.png)
 9. ![9.png](images/9.png)
 10. ![10.png](images/10.png)
-11. ![11.png](images/11.png)
-
 
 Running Flask
 -------------
@@ -51,3 +50,4 @@ Running the voting app
 22. ![22.png](images/22.png)
 23. ![23.png](images/23.png)
 24. ![24.png](images/24.png)
+25. ![25.png](images/25.png)
