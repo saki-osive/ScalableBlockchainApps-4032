@@ -4,6 +4,7 @@ Sarthak Kaushik(101471600)
 Part-1
 =======
 
+[![Watch the video](video/video_thumbnail.png)](video/EthereumFullStackApp.mp4)
 
 Part-2
 =======
