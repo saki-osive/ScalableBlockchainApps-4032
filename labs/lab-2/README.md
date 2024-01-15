@@ -16,3 +16,4 @@ Deploying a simple dashboard
 
 6. ![6.png](images/6.png)
 7. ![7.png](images/7.png)
+8![8.png](images/8.png)
