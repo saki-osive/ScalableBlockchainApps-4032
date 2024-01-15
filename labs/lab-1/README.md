@@ -38,6 +38,11 @@ Pushing to Docker
 18. ![18.png](images/18.png)
 19. ![19.png](images/19.png)
 
+Link to the pushed image on docker hub
+---------------------------------------
+
+https://hub.docker.com/repository/docker/sudojarvis/flaskdocker/general
+
 Running the voting app
 -----------------------
 
