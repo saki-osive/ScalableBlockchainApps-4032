@@ -1,6 +1,12 @@
 Sarthak Kaushik(101471600)
 ---------------------------
 
+Part-1
+=======
+
+
+Part-2
+=======
 
 Installing Minikube and Kubectl
 --------------------------------
@@ -16,4 +22,10 @@ Deploying a simple dashboard
 
 6. ![6.png](images/6.png)
 7. ![7.png](images/7.png)
-8![8.png](images/8.png)
+8. ![8.png](images/8.png)
+
+
+Part-3
+========
+
+Please refer to the folder `part-3` for the PDF file.
