@@ -38,6 +38,12 @@ Deployment rollout status
 
 11. ![11.png](images/11.png)
 
+StatefulSet YAML
+-------------------
+
+12. ![17.png](images/17.png)
+13. ![18.png](images/18.png)
+
 Apply `replicate_set_deployment` YAML file
 ------------------------------------------
 
