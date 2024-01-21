@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/labs/lab-1/example-voting-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labs/lab-3/fullstack-app/kubernetes-demo" vcs="Git" />
   </component>
 </project>
