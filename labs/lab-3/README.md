@@ -62,3 +62,18 @@ Apply `health-check` YAML file
 
 
 16. ![16.png](images/16.png)
+
+
+Deploying a full-stack application
+====================================
+
+
+1. ![1.png](images_full_stack_app/1.png)
+2. ![2.png](images_full_stack_app/2.png)
+3. ![3.png](images_full_stack_app/3.png)
+4. ![4.png](images_full_stack_app/4.png)
+5. ![5.png](images_full_stack_app/5.png)
+6. ![6.png](images_full_stack_app/6.png)
+7. ![7.png](images_full_stack_app/7.png)
+
+
