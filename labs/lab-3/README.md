@@ -84,7 +84,7 @@ Deploying a full-stack application
 Task: Bring down note-depp pod
 -------------------------------
 
-9. ![7.png](images_full_stack_app/7.png)
+10. ![7.png](images_full_stack_app/7.png)
 
 10. ![1.png](images_full_stack_app/10.png)
 
