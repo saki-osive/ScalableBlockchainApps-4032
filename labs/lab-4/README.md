@@ -11,6 +11,12 @@ Structure of the `lab-4` dir
 - All screenshots are in the `images` dir.
 - All the YAMLs are in the `k8s-yaml-files` dir.
 
+
+Architecture Diagram
+----------------------------
+
+![architecture](./design-document/k8s-design-doc.drawio.png)
+
 Starting minikube with 16 cores and 48 GiB RAM
 ------------------------------------------------
 
@@ -158,6 +164,39 @@ Config Map
 ------------
 
 1. ![4.png](./images/secret/config-map.png)
+
+
+RBAC
+-------
+
+1. Client certificate for the user:
+
+![img.png](./images/roles/img.png)
+
+2. User entry in kubeconfig:
+
+![img.png](./images/roles/img_1.png)
+
+3. Context entry in kubeconfig:
+
+![img.png](./images/roles/img_2.png)
+
+4. Switched to the created user:
+
+![img.png](./images/roles/img_3.png)
+
+![img.png](./images/roles/img_4.png)
+
+
+5. Role Creation with read-only access
+
+![img.png](./images/roles/img_5.png)
+
+6. Binding the Role to the user sarthak
+
+![img.png](./images/roles/img_6.png)
+
+![img.png](./images/roles/img_7.png)
 
 Docker Ethereum App UI
 ----------------------
