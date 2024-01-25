@@ -21,7 +21,7 @@ Architecture Diagram
 Design Document
 ----------------------------
 
-[Cick to view the Design Document](./design-document/DesignDocument.pdf)
+[Click to view the Design Document](./design-document/DesignDocument.pdf)
 
 Starting minikube with 16 cores and 48 GiB RAM
 ------------------------------------------------
