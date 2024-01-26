@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eth-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eth
+  template:
+    metadata:
+      labels:
+        app: eth
+    spec:
+      containers:
+        - name: ganache
+          image: schadokar/eth-ganache:1.0.0
+          ports:
+            - containerPort: 8545
+        - name: dapp
+          image: schadokar/eth-server:1.0.0
+          ports:
+            - containerPort: 4000
+        - name: react
+          image: schadokar/eth-react:1.0.0
+          ports:
+            - containerPort: 80
+
