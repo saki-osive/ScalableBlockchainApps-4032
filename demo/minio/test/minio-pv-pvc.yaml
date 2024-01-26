@@ -1,0 +1,29 @@
+# minio-pv-pvc.yaml
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-pv
+  namespace: minio
+spec:
+  capacity:
+    storage: 1Gi
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage-class
+  hostPath:
+    path: /home/arcturus/minio # Replace with your actual host path
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: minio-pvc
+  namespace: minio
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage-class
+  resources:
+    requests:
+      storage: 1Gi
+
