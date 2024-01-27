@@ -109,9 +109,8 @@ All services
 Forwarding pods from K8s to make the services accessible on `localhost` and facilitate inter-service communication
 --------------------------------------------------------------------------------------------------------------------
 
-1. ![1.png](./images/port-fwd-1.png)
-2. ![2.png](./images/port-fwd-2.png)
-3. ![3.png](./images/port-fwd-3.png)
+18. ![18.png](./images/port-forward/1.png)
+18. ![18.png](./images/port-forward/2.png)
 
 
 ReplicaSet
