@@ -121,7 +121,6 @@ The replicas of the pods are shown, the cluster will maintain atleast the
 declared number of copies of these (here 3).
 
 1. ![4.png](./images/replica-set/1.png)
-2. ![4.png](./images/replica-set/2.png)
 
 Storage
 ---------
