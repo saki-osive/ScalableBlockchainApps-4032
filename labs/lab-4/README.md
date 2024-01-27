@@ -148,6 +148,12 @@ Secrets
 
 1. ![4.png](./images/secret/1.png)
 
+
+Config Map
+------------
+
+1. ![4.png](./images/secret/config-map.png)
+
 Docker Ethereum App UI
 ----------------------
 
