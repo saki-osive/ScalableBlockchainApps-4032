@@ -1,0 +1,21 @@
+# ganache-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ganache-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ganache
+  template:
+    metadata:
+      labels:
+        app: ganache
+    spec:
+      containers:
+      - name: ganache
+        image: sudojarvis/eth-ganache:latest
+        ports:
+        - containerPort: 8545
+

@@ -4,6 +4,13 @@ Lab-4
 Sarthak Kaushik(101471600)
 ---------------------------
 
+Structure of the lab-4 dir
+----------------------------
+
+- Design rationale document is in the `design-document` dir.
+- All screenshots are in the screenshots in the `images` dir.
+- All the YAMLs are in the `k8s-yaml-files` dir.
+
 Starting minikube with 16 cores and 48 GiB RAM
 ------------------------------------------------
 
