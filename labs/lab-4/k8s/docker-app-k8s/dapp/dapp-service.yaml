@@ -4,6 +4,7 @@ kind: Service
 metadata:
   name: dapp-service
 spec:
+  type: LoadBalancer
   selector:
     app: dapp
   ports:
