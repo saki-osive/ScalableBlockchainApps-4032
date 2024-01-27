@@ -17,6 +17,11 @@ spec:
         image: schadokar/eth-server:1.0.0
         ports:
         - containerPort: 4000
+        resources:
+          requests:
+            cpu: "500m"  # Set the initial request to 500 milli cores
+          limits:
+            cpu: "1000m"  # Set the upper limit to 1000 milli cores
 ---
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
@@ -35,5 +40,5 @@ spec:
       name: cpu
       target:
         type: Utilization
-        averageUtilization: 50
+        averageUtilization: 50  # Set the target CPU utilization percentage
 

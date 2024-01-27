@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react
-        image: schadokar/eth-react:1.0.0
+        image: sudojarvis/eth-react:latest
         ports:
         - containerPort: 80
         resources:

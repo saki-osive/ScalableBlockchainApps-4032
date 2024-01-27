@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: react-deployment
+  name: dapp-deployment
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: react
+      app: dapp
   template:
     metadata:
       labels:
-        app: react
+        app: dapp
     spec:
       containers:
-      - name: react
-        image: schadokar/eth-react:1.0.0
+      - name: dapp
+        image: sudojarvis/eth-server:latest
         ports:
-        - containerPort: 80
+        - containerPort: 4000
         resources:
           requests:
             cpu: "500m"  # Set the initial request to 500 milli cores
@@ -26,12 +26,12 @@ spec:
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: react-hpa
+  name: dapp-hpa
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: react-deployment
+    name: dapp-deployment
   minReplicas: 1
   maxReplicas: 5
   metrics:
