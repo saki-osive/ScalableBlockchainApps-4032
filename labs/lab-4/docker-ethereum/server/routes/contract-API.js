@@ -11,7 +11,7 @@ router.post("/compile", async function (req, res, next) {
 
 // Deploy the contract
 router.post("/deploy", async function (req, res, next) {
-  const result = await deploy("Namaste Dockercon 2022!");
+  const result = await deploy("Bonjour Sarthak Lab-4!");
   res.send(JSON.parse(result).address);
 });
 
