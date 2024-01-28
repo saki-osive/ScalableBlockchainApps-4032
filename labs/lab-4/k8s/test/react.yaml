@@ -1,0 +1,21 @@
+# react-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: react
+  template:
+    metadata:
+      labels:
+        app: react
+    spec:
+      containers:
+      - name: react
+        image: schadokar/eth-react:1.0.0
+        ports:
+        - containerPort: 80
+

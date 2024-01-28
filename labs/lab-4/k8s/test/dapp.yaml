@@ -1,0 +1,21 @@
+# dapp-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dapp-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dapp
+  template:
+    metadata:
+      labels:
+        app: dapp
+    spec:
+      containers:
+      - name: dapp
+        image: schadokar/eth-server:1.0.0
+        ports:
+        - containerPort: 4000
+
