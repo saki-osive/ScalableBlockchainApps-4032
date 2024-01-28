@@ -1,0 +1,30 @@
+# ganache-statefulset.yaml
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: ganache-statefulset
+spec:
+  serviceName: ganache-service
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ganache
+  template:
+    metadata:
+      labels:
+        app: ganache
+    spec:
+      containers:
+      - name: ganache
+        image: schadokar/eth-ganache:1.0.0
+        ports:
+        - containerPort: 8545
+  volumeClaimTemplates:
+  - metadata:
+      name: ganache-data
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 1Gi
+

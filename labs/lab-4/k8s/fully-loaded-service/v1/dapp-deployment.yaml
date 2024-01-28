@@ -1,0 +1,36 @@
+# dapp-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dapp-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dapp
+  template:
+    metadata:
+      labels:
+        app: dapp
+    spec:
+      containers:
+      - name: dapp
+        image: schadokar/eth-server:1.0.0
+        ports:
+        - containerPort: 4000
+      volumes:
+      - name: dapp-storage
+        persistentVolumeClaim:
+          claimName: dapp-data
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: dapp-data
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+

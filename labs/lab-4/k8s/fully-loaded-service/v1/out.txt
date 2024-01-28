@@ -1,0 +1,12 @@
+sarthak@jarvis$ kubectl get pods
+NAME                                READY   STATUS                       RESTARTS   AGE
+dapp-deployment-6b7df7d658-xltqf    1/1     Running                      0          4m33s
+dapp-deployment-6b7df7d658-z9xsb    1/1     Running                      0          4m33s
+dapp-replicaset-k5d2w               1/1     Running                      0          4m33s
+dapp-replicaset-x8465               1/1     Running                      0          4m33s
+ganache-statefulset-0               1/1     Running                      0          4m33s
+ganache-statefulset-1               1/1     Running                      0          4m30s
+ganache-statefulset-2               1/1     Running                      0          4m28s
+react-deployment-845bbccc5d-bhn6h   0/1     CreateContainerConfigError   0          4m33s
+react-deployment-845bbccc5d-nwtlh   0/1     CreateContainerConfigError   0          4m33s
+react-deployment-845bbccc5d-xgbjm   0/1     CreateContainerConfigError   0          4m33s

@@ -6,6 +6,22 @@ Sarthak Kaushik(101471600)
 
 
 
+Forwarding pods from K8s to make the services accessible on `localhost` and facilitate inter-service communication
+--------------------------------------------------------------------------------------------------------------------
+
+1. ![1.png](./images/port-fwd-1.png)
+2. ![2.png](./images/port-fwd-2.png)
+3. ![3.png](./images/port-fwd-3.png)
+
+UI running the docker-ethereum app
+------------------------------------
+
+4. ![4.png](./images/ui-1.png)
+5. ![5.png](./images/ui-2.png)
+6. ![6.png](./images/ui-3.png)
+7. ![7.png](./images/ui-4.png)
+8. ![8.png](./images/ui-5.png)
+
 
 
 
